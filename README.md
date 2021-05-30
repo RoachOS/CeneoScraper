@@ -11,8 +11,8 @@
 |Rekomendacja|`span.user-post__author-recomendation`|recomm||
 |Liczba gwiazdek|`span.user-post__score-count`|stars||
 |Treść|`div.user-post__text`|content||
-|Lista zalet|`review-feature__col:has(> div.review-feature__title--positives) > review-feature__item` <br> `review-feature__col:has(> div[class*="positives") > review-feature__item` <br> `div.review-feature__title--positives ~ review-feature__item`|pros||
-|Lista wad|`review-feature__col:has(> div.review-feature__title--negatives) > review-feature__item` <br> `review-feature__col:has(> div[class*="negatives") > review-feature__item` <br> `div.review-feature__title--negatives ~ review-feature__item`|cons||
+|Lista zalet|`review-feature__col:has(> div.review-feature__title--positives) > .review-feature__item` <br> `review-feature__col:has(> div[class*="positives") > .review-feature__item` <br> `div.review-feature__title--positives ~ .review-feature__item`|pros||
+|Lista wad|`review-feature__col:has(> div.review-feature__title--negatives) > .review-feature__item` <br> `review-feature__col:has(> div[class*="negatives") > .review-feature__item` <br> `div.review-feature__title--negatives ~ .review-feature__item`|cons||
 |Dla ilu osób użyteczna|`span[id^="votes-yes"]` <br> `button.vote-yes > span` <br> `button.vote-yes["data-total-vote"]`|useful||
 |Dla ilu osób nieużyteczna|`span[id^="votes-no"]` <br> `button.vote-no > span` <br> `button.vote-no["data-total-vote"]`|useless||
 |Czy opinia potwierdzona zakupem|`div.review-pz`|purchased||
